@@ -70,3 +70,14 @@ if number % 2 == 0:
 else:
     print("Число не парне")
 #zadacha10
+def can_break_chocolate(n, m, k):
+    total_pieces = n + m - 2
+    if k >= 0 and k <= total_pieces:
+        return True
+    else:
+        return FalseS
+n=int(input("Введіть кількість рядків шоколадки (п): "))
+m=int(input("Введіть кількість стовпчиків заколадки (п): "))
+k=int(input("Введіть бажану кількість частинок (к): "))
+if can_break_chocolate(n ,m ,k):
+    print("Tак,можна отримати рівно ", k, "частинок шоколадки. ")
